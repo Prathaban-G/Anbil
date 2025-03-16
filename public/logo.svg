@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#gradient)" />
+  
+  <!-- Heart Shape -->
+  <path d="M50 30C55 20 65 20 70 25C75 30 75 40 50 60C25 40 25 30 30 25C35 20 45 20 50 30Z" fill="white" />
+  
+  <!-- Flame Shape -->
+  <path d="M50 35C55 25 60 30 60 35C60 40 55 40 55 45C55 50 60 50 60 55C60 62 50 65 50 70C50 65 40 62 40 55C40 50 45 50 45 45C45 40 40 40 40 35C40 30 45 25 50 35Z" fill="#FF6B8A" />
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B8A" />
+      <stop offset="100%" style="stop-color:#8A5FFF" />
+    </linearGradient>
+  </defs>
+</svg>
